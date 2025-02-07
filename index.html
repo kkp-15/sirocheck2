@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日のお城</title>
+    <script src="script.js" defer></script>  <!-- 外部JavaScriptファイルを読み込む -->
+</head>
+<body>
+    <h1>今日のお城</h1>
+    <button onclick="playTaiko(); showCastle();">お城を表示</button>
+    
+    <h2 id="castle-name"></h2>
+    <p id="castle-description"></p>
+    <p id="castle-map-link"></p>
+
+    <!-- 陣太鼓の音声ファイル -->
+    <audio id="taiko-audio" src="jin_taiko.mp3" preload="auto"></audio> <!-- jin_taiko.mp3をプロジェクト内に追加 -->
+
+</body>
+</html>
